@@ -1,0 +1,1300 @@
+{
+  "especialidades": [{
+      "id": 2,
+      "name": "Desarrollo frontend con React.js",
+      "subtitle": "El camino para aprender React desde cero hasta crear tu primera aplicación real",
+      "information": "En esta especialidad aprenderás lo necesario para entender desde las bases de React, pasando por las integraciones con otras librerías y extensiones hasta poder construir tu primera aplicación real tal y como fue construida la app de EDteam.",
+      "level": "AVANZADO",
+      "picture": "https://edteam-media.s3.amazonaws.com/specialities/original/3e6a0de6-602b-439c-a90b-346f13c6760f.png",
+      "slug": "react",
+      "is_visible": true,
+      "is_comming": false
+    },
+    {
+      "id": 1,
+      "name": "Administración de Redes Desde Cero",
+      "subtitle": "",
+      "information": "Las redes mantienen al mundo conectado y permiten desde comunicaciones pequeñas (LAN) hasta comunicaciones de alcance mundial (Internet). En esta especialidad aprenderás como funcionan las redes, sus protocolos, seguridad y configuración y estarás listo para rendir tu examen de certificación en Cisco.",
+      "level": "PRINCIPIANTE",
+      "picture": "https://edteam-media.s3.amazonaws.com/specialities/original/ae1599b9-1f2c-4853-81f9-166d3679b41b.png",
+      "slug": "redes",
+      "is_visible": true
+    }
+  ],
+  "cursos": [{
+      "id": 14,
+      "name": "Plataforma de educación online con React.js",
+      "subtitle": "Aprende a crear tu propia aplicación de cursos con React.js y basada en la experiencia de EDteam.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/4ff27f76-96a9-44ab-bb7f-ed0e17263e7c.png",
+      "information": "En este Workshop aplicarás los conceptos de React.js para desarrollar desde cero tu propia aplicación de educación online como la de EDteam. Iremos desde la planificación hasta el despliegue de la aplicación en producción.",
+      "you_learn": "<li>Planificar y estructurar un proyecto</li>\n<li>Escribir componentes según atomic design</li>\n<li>Utilizar el estado global</li>\n<li>Desplegar tu app en un servidor</li>",
+      "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"_blank\">React desde cero</a></li>\n<li><a href=\"https://ed.team/cursos/react-route\"  target=\"_blank\">React: Rutas, APIs & Hooks</a></li>\n<li><a href=\"https://ed.team/cursos/react-state\" target=\"_blank\">React: Manejo del estado</a></li>",
+      "level": "HIGH",
+      "course_type": "WORKSHOP",
+      "visible": true,
+      "comming": true,
+      "comming_date": "2019-07-25T15:00:00Z",
+      "slug": "workshop-react"
+    },
+    {
+      "id": 13,
+      "name": "React - Manejo del estado de la aplicación",
+      "subtitle": "Aprende a manejar un estado global para toda tu aplicación para controlar el estado de los componentes",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/8b7ef439-b9bc-485f-9608-d82d0d1a7a2b.png",
+      "information": "Los componentes tienen su propio estado que no es compartido con otros. El estado global resuelve este inconveniente permitiendo que todos los componentes estén suscritos a él y se actualicen cuando sea modificado.",
+      "you_learn": "<li>Conceptos del estado global</li>\n<li>Integración de Redux a tu app</li>\n<li>Uso de Context API</li>\n<li>Diferencias y ventajas entre las varias soluciones</li>",
+      "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"_blank\">React desde cero</a></li>",
+      "level": "INTERMEDIATE",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2019-06-27T15:00:00Z",
+      "slug": "react-state"
+    },
+    {
+      "id": 12,
+      "name": "React - Rutas, APIs & Hooks",
+      "subtitle": "Aprende a integrar React.js con librerías de terceros para ampliar sus características.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/f7dad9a6-e060-4305-9adf-b9a9079075de.jpg",
+      "information": "Este curso te enseñará a integrar React Router para construir las rutas de la aplicación. Utilizar librerías para peticiones a APIs REST y ampliar las características de los componentes con hooks y componentes de orden superior.",
+      "you_learn": "<li>Crear rutas con React Router</li>\n<li>Peticiones HTTP con Axios y Fetch</li>\n<li>Componentes de orden superior</li>\n<li>Hooks en React</li>",
+      "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"blank\">React desde cero</a></li>",
+      "level": "INTERMEDIATE",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2019-06-13T15:00:00Z",
+      "slug": "react-route"
+    },
+    {
+      "id": 11,
+      "name": "React.js Desde Cero",
+      "subtitle": "Programa tus aplicaciones web con la librería frontend que usa Facebook e Instagram.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/f7dad9a6-e060-4305-9adf-b9a9079075de.jpg",
+      "information": "React.js es la librería frontend con la que están construidas las dos redes sociales más grandes: Facebook e Instagram. En este curso aprenderás a crear tus propios componentes React con la sintaxis JSX y usarlos para crear interfaces de usuario.",
+      "you_learn": "<li>Configuración del entorno de desarrollo</li>\n<li>Sintaxis JSX</li>\n<li>El poder de los componentes</li>",
+      "requirements": "<li><a href=\"https://ed.team/cursos/html\" target=\"_blank\">HTML</a></li>\n<li><a href=\"https://ed.team/cursos/javascript\" target=\"_blank\">Javascript desde cero</a></li>\n<li><a href=\"https://ed.team/cursos/js-poo\" target=\"_blank\">Javascript Orientado a Objetos</a></li>",
+      "level": "BEGIN",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2019-05-30T15:00:00Z",
+      "slug": "react"
+    },
+    {
+      "id": 10,
+      "name": "Infraestructura de Redes",
+      "subtitle": "Diseña, configura y administra sistemas de redes.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/317a14ee-c682-4be1-94ba-51bdcd53d2bf.png",
+      "information": "En este curso aprenderás los protocolos de capa de aplicación más importantes para el funcionamiento de una red, la gestión de los dispositivos conectados a la red y las tareas administrativas y de mantenimiento.",
+      "you_learn": " <li>Describir los protocolos más comunes necesarios en toda infraestructura de red.</li>\n    <li>Mostrar el funcionamiento de los protocolos de aplicación más comunes en una red.</li>\n    <li>Describir procesos para el mantenimiento y administración de un dispositivo de red.</li>\n",
+      "requirements": "    <li>\n      <a href=\"https://ed.team/cursos/lan\" target=\"_blank\">Fundamentos de conmutación</a>.\n    </li>\n    <li>\n      <a href=\"https://ed.team/cursos/enrutamiento\" target=\"_blank\">Fundamentos de enrutamiento</a>.\n    </li>",
+      "level": "BEGIN",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2019-06-14T12:00:00Z",
+      "slug": "infraestructura"
+    },
+    {
+      "id": 9,
+      "name": "Enrutamiento de Redes",
+      "subtitle": "Aprenderás cómo hace su trabajo un router en una red pequeña.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/61514891-66e9-4cc2-b5e5-e7f6c9a62e64.png",
+      "information": "El enrutamiento es el proceso de elegir la mejor ruta entre dos nodos para el envío y recepción de paquetes. En este curso comprenderás la arquitectura, los componentes y el funcionamiento de los routers en una red pequeña.",
+      "you_learn": "    <li>Describir conceptos de enrutamiento.</li>\n    <li>Describir los tipos de enrutamiento.</li>\n    <li>Mostrar alternativas para redes pequeñas del enrutamiento dinámico y el enrutamiento estático.</li>",
+      "requirements": " <li>\n      <a href=\"https://ed.team/cursos/lan\" target=\"_blank\">Fundamentos de conmutación</a>.\n    </li>\n    <li>Direccionamiento IPv4 e IPv6.</li>",
+      "level": "BEGIN",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2019-05-24T12:00:00Z",
+      "slug": "enrutamiento"
+    },
+    {
+      "id": 8,
+      "name": "Conmutación de Redes",
+      "subtitle": "Aprende a crear y configurar una red de área local (LAN).",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/9d726c88-9e49-4b04-ac84-7bccc32ab617.png",
+      "information": "Una LAN (Local Area Network) es el tipo de red más pequeña que se encuentra en una casa u oficina. En este curso aprenderás la arquitectura de una red LAN, sus protocolos propios y el funcionamiento de sus componentes.",
+      "you_learn": "<li>Descripción de conceptos de conmutación.</li>\n    <li>Interpretar el formato de una trama Ethernet.</li>\n    <li>Realizar configuraciones básicas y avanzadas de switch.</li>",
+      "requirements": "<li>\n      <a href=\"https://ed.team/cursos/redes\" target=\"_blank\">Fundamentos de redes</a>.\n    </li>",
+      "level": "BEGIN",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2019-05-03T12:00:00Z",
+      "slug": "lan"
+    },
+    {
+      "id": 7,
+      "name": "Fundamentos de Redes",
+      "subtitle": "Comprende cómo funcionan las direcciones IP y los protocolos de red.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/6ec77881-789f-4e1f-8287-9a6ff08ac66c.png",
+      "information": "Las redes permiten que las computadoras envíen y reciban datos. Internet, y otras tecnologías, existen gracias a ellas. En este curso aprenderás cómo funcionan las redes, los componentes, dispositivos, protocolos y capas.",
+      "you_learn": "<li>Describir componentes y topologías de red.</li>\n    <li>Comparar y describir la suite de protocolos OSI y TCP/IP.</li>\n    <li>Configuración básica de dispositivos de red.</li>",
+      "requirements": "<li>\n      <a href=\"https://ed.team/blog/sistemas-binarios-y-decimales\" target=\"_blank\">\n        Sistemas Binarios y Decimales.\n      </a>\n    </li>",
+      "level": "BEGIN",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2019-04-09T12:00:00Z",
+      "slug": "redes"
+    },
+    {
+      "id": 6,
+      "name": "Cómo iniciar tu primer emprendimiento",
+      "subtitle": "Aprende a crear tu propio negocio y hacerlo sostenible",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/927ea68c-c0b0-440c-9c2c-a9bede954906.png",
+      "information": "El emprendimiento esta plagado de mitos y mentiras. ¿Que tanto valor aporta la idea? ¿Cuánto capital necesitas para empezar? ¿Como triunfar sobre la competencia? Si quieres comenzar tu propio emprendimiento o ya estás emprendiendo seguro te has hecho estas y otras preguntas y este taller te guiará en el proceso.",
+      "you_learn": "\n    <li>¿Qué es emprender?</li>\n    <li>Producto y propuesta de valor</li>\n    <li>Marketing y ventas</li>\n    <li>Finanzas</li>\n    <li>Gestión y procesos</li>\n    <li>Liderazgo y trabajo en equipo</li>",
+      "requirements": " <li>Estar emprendiendo o tener muchas ganas de emprender</li>\n <li>No se requieren conocimientos técnicos</li>",
+      "level": "INTERMEDIATE",
+      "course_type": "WORKSHOP",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2019-05-24T17:00:00Z",
+      "on_sale": false,
+      "for_premium": true,
+      "slug": "emprendimiento"
+    },
+    {
+      "id": 5,
+      "name": "Flexbox",
+      "subtitle": "Aprende a diseñar interfaces flexibles con flexbox, el sistema que utilizan todos los frameworks CSS.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/d9a43cc5-9590-427b-b7b1-5855d9410221.png",
+      "information": "Flexbox es un modelo de Layout CSS que permite distribuir los elementos a través de un eje horizontal o vertical. Además los elementos son flexibles y pueden crecer o encogerse adaptandose a las necesidades de tu interfaz. ",
+      "you_learn": "<li>Terminología de flexbox.</li>\n<li>Diseñar interfaces flexibles.</li>\n<li>Problemas comunes solucionados con flexbox</li>",
+      "requirements": "<li><a href=\"https://ed.team/cursos/html\" target=\"_blank\">HTML</a></li>\n<li><a href=\"https://ed.team/cursos/css\" target=\"_blank\">CSS</a></li>",
+      "level": "INTERMEDIATE",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2018-06-18T14:00:00Z",
+      "slug": "flexbox"
+    },
+    {
+      "id": 4,
+      "name": "Git  Desde Cero",
+      "subtitle": "Controla las versiones de tus proyectos de código y trabaja en equipo sin conflictos.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/bbf9707a-d2e8-441e-ab4b-756bf3bb527a.png",
+      "information": "GIT es un sistema de control de versiones que nos ayuda a llevar el historial completo de modificaciones de un proyecto, conociendo en detalle los cambios y quien los hizo. Así un equipo puede trabajar en un mismo proyecto sin sobreescribir código entre ellos.",
+      "you_learn": "<li>Usar git en tus proyectos.</li>\n<li>Moverse en el historial del proyecto.</li>\n<li>Trabajar con ramas.</li>\n<li>Enviar tus proyectos a Github/Gitlab</li>",
+      "requirements": "<li>Conocimientos básicos del manejo de la consola de comandos (navegar entre directorios, crear archivos y borrar archivos)</li>",
+      "level": "INTERMEDIATE",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2018-08-27T00:00:00Z",
+      "slug": "git"
+    },
+    {
+      "id": 3,
+      "name": "Programación Desde Cero",
+      "subtitle": "Programar no se trata de código, se trata de lógica. Este curso te enseña la lógica que te permitirá dominar cualquier lenguaje.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/8e79f5d9-4563-45c7-a688-440cc009887d.jpg",
+      "information": "La programación puede parecer intimidante al principio, sin embargo todos los lenguajes comparten los mismos principios y la misma lógica. Este curso te enseñará a pensar como un programador, creando algoritmos y aplicando soluciones en tres lenguajes: Java, Go y JavaScript. Si quieres convertirte en programador, este curso te enseñará los fundamentos para programar en cualquier lenguaje.",
+      "you_learn": "<li>Comprender los fundamentos de programación</li>\n<li>Comprender la lógica que está detrás de cualquier lenguaje</li>\n<li>Resolver ejercicios de olimpiadas de programación</li>",
+      "requirements": "<li>Ninguno (saber encender una computadora y utilizarla). Este curso es desde cero y solo necesitas querer aprender a programar.</li>",
+      "level": "BEGIN",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2017-02-06T17:00:00Z",
+      "on_sale": false,
+      "free": true,
+      "slug": "programacion"
+    },
+    {
+      "id": 2,
+      "name": "Drupal Desde Cero",
+      "subtitle": "Crea sitios web profesionales y escalables con el CMS más poderoso del mercado.",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/1a5bea38-0c7f-4ca1-ac3f-1710b1b7a5a3.png",
+      "information": "Drupal es un CMS escrito en PHP y basado en Symphony por lo que toma las mejores prácticas con PHP (p.ej. manejo de dependencias con Composer) convirtiéndose en una poderosa alternativa para construir sitios y aplicaciones web, pues puede usarse como CMS y a la vez como framework de desarrollo. Con Drupal puedes construir sitios robustos y escalables. Empresas como Lamborghini, Nasdaq, NBA, La Casa Blanca, Pinterest, entre otras, usan Drupal en sus sitios corporativos. Además, en Escuela Digital nuestra plataforma de cursos y nuestro sitio web llevan Drupal en su interior.",
+      "you_learn": "<li>Administrar sitios Drupal.</li>\n<li>Agregar modulos y temas a Drupal.</li>\n<li>Crear tipos de contenido y taxonomías.</li>\n<li>Vistas.</li>\n<li>Tu primer sitio Drupal</li>",
+      "requirements": "<li>Manejo básico de una computadora y navegar por internet.</li>",
+      "level": "BEGIN",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "2017-04-03T17:00:00Z",
+      "slug": "drupal"
+    },
+    {
+      "id": 1,
+      "name": "Bases de Datos Desde Cero",
+      "subtitle": "Diseña, estructura y administra bases de datos SQL y crea un sistema de facturación",
+      "picture": "https://edteam-media.s3.amazonaws.com/courses/original/cd6b19fb-bfcb-4197-bf68-4fd2ab7f37e2.png",
+      "information": "Este curso te enseñará lo necesario para diseñar y estructurar bases de datos relacionales (SQL) para tus proyectos. También podrás analizarlas y crear procedimientos almacenados (lógica en la DB), lo que te permitirá crear soluciones que un framework no te ofrece directamente. También si usas un CMS (WordPress, Drupal, Joomla, etc) con este curso serás capaz de comprender la estructura de sus bases de datos, extraer información y crear soluciones que la API del CMS no proporciona directamente.",
+      "you_learn": "<li>Diseño de base de datos</li> \n<li>Modelo Entidad Relación</li>\n<li>Álgebra relacional</li>\n<li>Programación procedimental</li>\n<li>PostgreSQL</li>\n<li>Triggers</li>",
+      "requirements": "<li>Ninguno, el curso es completamente desde cero.</li>",
+      "level": "INTERMEDIATE",
+      "course_type": "COURSE",
+      "visible": true,
+      "comming": false,
+      "comming_date": "0001-01-01T00:00:00Z",
+      "slug": "sql"
+    }
+  ],
+  "profesores": [{
+      "id": 1,
+      "name": "Alvaro Felipe",
+      "picture": "https://api.ed.team/files/avatars/c5514eb4-5e0d-44de-aef2-67bea4160bb4.jpg",
+      "country": "PERU"
+    },
+    {
+      "id": 2,
+      "name": "Alexys Lozada",
+      "picture": "https://api.ed.team/files/avatars/747dea4d-4438-4a7e-904a-427a5cd6aac7.jpg",
+      "country": "COLOMBIA"
+    },
+    {
+      "id": 3,
+      "name": "Beto Quiroga",
+      "picture": "https://api.ed.team/files/avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+      "country": "BOLIVIA"
+    },
+    {
+      "id": 4,
+      "name": "Camilo Adobe",
+      "picture": "https://api.ed.team/files/avatars/66813820-2857-4af9-b84f-9196acbb832e.jpg",
+      "country": "COLOMBIA"
+    },
+    {
+      "id": 5,
+      "name": "Harold Pajuelo",
+      "picture": "https://api.ed.team/files/avatars/c60e06d6-2e38-4c2a-a3e2-2882ebb503ac.jpg",
+      "country": "PERU"
+    },
+    {
+      "id": 8,
+      "name": "José Dimas Luján",
+      "picture": "https://drupal.ed.team/sites/default/files/styles/perfil_en_views_200x200_/public/pictures/2018-11/lujan.jpg?itok=By-TfmuL",
+      "country": "MÉXICO"
+    },
+    {
+      "id": 9,
+      "name": "Luis Aviles",
+      "picture": "https://drupal.ed.team/sites/default/files/styles/perfil_en_views_200x200_/public/pictures/2017-10/luis-aviles.jpg?itok=haXRY95-",
+      "country": "BOLIVIA"
+    },
+    {
+      "id": 10,
+      "name": "Manuel Rodriguez",
+      "picture": "https://api.ed.team/files/avatars/a32d05c5-06be-4a75-aa6e-839693ac1aca.jpeg",
+      "country": "PERU"
+    },
+    {
+      "id": 12,
+      "name": "Paula Leon",
+      "picture": "https://drupal.ed.team/sites/default/files/imagenes-cdn-edteam/2019-03/paula-leon_400x400.png",
+      "country": "BOLIVIA"
+    },
+    {
+      "id": 13,
+      "name": "Martin Arzuaga",
+      "picture": "https://api.ed.team/files/avatars/89707a5b-ca18-4f96-84cb-f792f5b714ad.jpg",
+      "country": "URUGUAY"
+    },
+    {
+      "id": 14,
+      "name": "Juan Guillermo Gomez",
+      "picture": "https://api.ed.team/files/avatars/b24584ff-5e99-4aac-bb63-064f3ac50c3e.jpg",
+      "country": "COLOMBIA"
+    }
+  ],
+  "posts": [{
+      "id": 10,
+      "author": "Juan Aguilar",
+      "title": "Quiero trabajar en EDteam",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 9,
+      "author": "Alfonso Martinez",
+      "title": "PHP puro o Laravel?  cuál aconsejan",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": " Vivamus in tristique nulla. Nulla ac nunc efficitur, condimentum sem vel, rutrum purus. Pellentesque ac pellentesque ex. Donec dignissim posuere purus, sit amet faucibus velit porta vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. at fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 8,
+      "author": "Sofia Velasquez",
+      "title": "Rendirse antes de aprender a programar",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "  Nulla ac nunc efficitur, condimentum sem vel, rutrum purus. Pellentesque ac pellentesque ex. Donec dignissim posuere pur Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 7,
+      "author": "Maria Juana Riquelme",
+      "title": "Cuánto cuesta un hosting?",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 6,
+      "author": "Juan Antonio Marcia",
+      "title": "Estamos buscando desarrolladores Java",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 5,
+      "author": "Alexys Mendez",
+      "title": "Go desde cero está actualizado",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 4,
+      "author": "Andres Steves",
+      "title": "se puede usar Java dentro de HTML?",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 3,
+      "author": "Cosme Fulanito",
+      "title": "Hackaton de EDteam 2019 ... habrá?",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 2,
+      "author": "Cosme Fulanito",
+      "title": "Por favor no escribir en mayúsculas",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    },
+    {
+      "id": 1,
+      "author": "Cosme Fulanito",
+      "title": "Ayuda con CSS grid Urgente!!",
+      "fecha": "20/07/2019 a las 10:45",
+      "content": "Etiam varius in erat id euismod. Fusce nisl justo, facilisis in egestas tristique, placerat fringilla augue. Curabitur gravida, massa ut consequat fermentum, dolor tellus dapibus purus, eu bibendum nulla ex convallis leo. Nunc elit nunc, tristique a nunc ut, fringilla semper dolor. Fusce mollis ut velit id imperdiet."
+    }
+  ],
+  "clase": [{
+    "id": 123,
+    "name": "Introducción al curso React desde cero",
+    "video": "48157338"
+  }],
+  "curso": [{
+    "id": 1,
+    "name": "React.js Desde Cero",
+    "subtitle": "Programa tus aplicaciones web con la librería frontend que usa Facebook e Instagram.",
+    "picture": "https://edteam-media.s3.amazonaws.com/courses/original/f7dad9a6-e060-4305-9adf-b9a9079075de.jpg",
+    "information": "React.js es la librería frontend con la que están construidas las dos redes sociales más grandes: Facebook e Instagram. En este curso aprenderás a crear tus propios componentes React con la sintaxis JSX y usarlos para crear interfaces de usuario.",
+    "you_learn": "<li>Configuración del entorno de desarrollo</li>\n<li>Sintaxis JSX</li>\n<li>El poder de los componentes</li>",
+    "requirements": "<li><a href=\"https://ed.team/cursos/html\" target=\"_blank\">HTML</a></li>\n<li><a href=\"https://ed.team/cursos/javascript\" target=\"_blank\">Javascript desde cero</a></li>\n<li><a href=\"https://ed.team/cursos/js-poo\" target=\"_blank\">Javascript Orientado a Objetos</a></li>",
+    "level": "BEGIN",
+    "course_type": "COURSE",
+    "visible": true,
+    "comming": false,
+    "comming_date": "2019-05-30T15:00:00Z",
+    "slug": "react",
+    "data": {
+      "class_count": 4,
+      "subject_count": 27,
+      "specialities": [{
+        "id": 1,
+        "name": "Desarrollo frontend con React.js",
+        "subtitle": "El camino para aprender React desde cero hasta crear tu primera aplicación real",
+        "information": "En esta especialidad aprenderás lo necesario para entender desde las bases de React, pasando por las integraciones con otras librerías y extensiones hasta poder construir tu primera aplicación real tal y como fue construida la app de EDteam.",
+        "level": "AVANZADO",
+        "picture": "https://drupal.ed.team/sites/default/files/imagenes-cdn-edteam/2019-04/React%20desarrollo%20frotend.png",
+        "slug": "react"
+      }],
+      "classes": [{
+          "class": {
+            "id": 812,
+            "course_id": 180,
+            "emission_at": "2019-05-30T00:00:00Z",
+            "title": "Comenzando con React",
+            "week_at": 1,
+            "slug": "",
+            "description": "Entenderás para qué sirve React y por qué debes utilizarlo",
+            "created_at": "2019-04-25T14:09:54.706154Z",
+            "updated_at": "2019-05-04T01:41:31.374016Z"
+          },
+          "subject_count": 7,
+          "subjects": [{
+              "subject": {
+                "id": 4424,
+                "class_id": 812,
+                "title": "1.1 - ¿Qué es React?",
+                "video_url": "https://player.vimeo.com/external/339569988.m3u8?s=83227f612babcc1398d43709aafa33a417cbdbed",
+                "is_public": true,
+                "duration": "0000-01-01T00:08:00Z",
+                "duration_string_format": "00:08:00",
+                "notes": "  ",
+                "with_subscription": false,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:10:33.920808Z",
+                "updated_at": "2019-05-31T12:52:28.629651Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4425,
+                "class_id": 812,
+                "title": "1.2 - Virtual DOM",
+                "is_public": false,
+                "duration": "0000-01-01T00:08:01Z",
+                "duration_string_format": "00:08:01",
+                "notes": "  ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:11:14.953641Z",
+                "updated_at": "2019-05-31T13:34:53.086749Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4426,
+                "class_id": 812,
+                "title": "1.3 - Pensando en componentes",
+                "video_url": "https://player.vimeo.com/external/339570499.m3u8?s=d86844f131b2e35986b7a2e696a2fd916343736f",
+                "is_public": true,
+                "duration": "0000-01-01T00:15:14Z",
+                "duration_string_format": "00:15:14",
+                "notes": "   ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:11:43.552264Z",
+                "updated_at": "2019-06-02T22:17:44.135895Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4427,
+                "class_id": 812,
+                "title": "1.4 - Instalando mi primera app",
+                "is_public": false,
+                "duration": "0000-01-01T00:17:29Z",
+                "duration_string_format": "00:17:29",
+                "notes": "  ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:12:03.749467Z",
+                "updated_at": "2019-05-31T13:36:52.995863Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4428,
+                "class_id": 812,
+                "title": "1.5 - Dependencias",
+                "is_public": false,
+                "duration": "0000-01-01T00:05:58Z",
+                "duration_string_format": "00:05:58",
+                "notes": "  ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:12:48.233565Z",
+                "updated_at": "2019-07-05T19:35:42.964363Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4567,
+                "class_id": 812,
+                "title": "1.6 - Scripts",
+                "is_public": false,
+                "duration": "0000-01-01T00:11:41Z",
+                "duration_string_format": "00:11:41",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-05-31T13:38:54.4744Z",
+                "updated_at": "0001-01-01T00:00:00Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4568,
+                "class_id": 812,
+                "title": "1.7 - Recomendaciones",
+                "is_public": false,
+                "duration": "0000-01-01T00:03:52Z",
+                "duration_string_format": "00:03:52",
+                "notes": "Se ven recomendaciones",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-05-31T13:39:48.615346Z",
+                "updated_at": "0001-01-01T00:00:00Z"
+              },
+              "subject_resources": []
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 813,
+            "course_id": 180,
+            "emission_at": "2019-06-03T00:00:00Z",
+            "title": "JSX",
+            "week_at": 2,
+            "slug": "",
+            "description": "JSX es la sintaxis que usa React para crear componentes en JavaScript como si fuera HTML",
+            "created_at": "2019-04-25T14:15:04.183378Z",
+            "updated_at": "2019-05-04T01:41:58.860851Z"
+          },
+          "subject_count": 4,
+          "subjects": [{
+              "subject": {
+                "id": 4429,
+                "class_id": 813,
+                "title": "2.1 - Integrando EDgrid",
+                "is_public": false,
+                "duration": "0000-01-01T00:13:24Z",
+                "duration_string_format": "00:13:24",
+                "notes": "  ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:15:32.897579Z",
+                "updated_at": "2019-07-05T16:25:13.973193Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4430,
+                "class_id": 813,
+                "title": "2.2 - ¿Qué es JSX?",
+                "is_public": false,
+                "duration": "0000-01-01T00:16:36Z",
+                "duration_string_format": "00:16:36",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:16:02.106306Z",
+                "updated_at": "2019-06-04T16:26:06.208592Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4431,
+                "class_id": 813,
+                "title": "2.3 - Restricciones JSX",
+                "is_public": false,
+                "duration": "0000-01-01T00:18:32Z",
+                "duration_string_format": "00:18:32",
+                "notes": "  ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:16:26.837123Z",
+                "updated_at": "2019-06-04T16:26:48.544745Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4432,
+                "class_id": 813,
+                "title": "2.4 - JSX a profundidad",
+                "is_public": false,
+                "duration": "0000-01-01T00:13:10Z",
+                "duration_string_format": "00:13:10",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:16:57.949437Z",
+                "updated_at": "2019-06-04T16:27:20.757729Z"
+              },
+              "subject_resources": []
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 814,
+            "course_id": 180,
+            "emission_at": "2019-06-06T00:00:00Z",
+            "title": "Componentes",
+            "week_at": 3,
+            "slug": "",
+            "description": "Los componentes son los bloques en los que divides la interfaz de tu aplicación.",
+            "created_at": "2019-04-25T14:17:22.65844Z",
+            "updated_at": "2019-05-04T01:42:17.217974Z"
+          },
+          "subject_count": 7,
+          "subjects": [{
+              "subject": {
+                "id": 4433,
+                "class_id": 814,
+                "title": "3.1 - Subiendo proyecto a Github",
+                "is_public": false,
+                "duration": "0000-01-01T00:11:21Z",
+                "duration_string_format": "00:11:21",
+                "notes": "  ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:21:51.37304Z",
+                "updated_at": "2019-06-06T15:15:02.949304Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4434,
+                "class_id": 814,
+                "title": "3.2 - Expresiones JSX",
+                "is_public": false,
+                "duration": "0000-01-01T00:14:58Z",
+                "duration_string_format": "00:14:58",
+                "notes": "  ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:22:28.95839Z",
+                "updated_at": "2019-06-06T15:17:00.826993Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4435,
+                "class_id": 814,
+                "title": "3.3 - Propiedades",
+                "is_public": false,
+                "duration": "0000-01-01T00:09:12Z",
+                "duration_string_format": "00:09:12",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:23:13.841154Z",
+                "updated_at": "2019-06-06T15:29:17.215859Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4436,
+                "class_id": 814,
+                "title": "3.4 - Imprimiendo propiedades",
+                "is_public": false,
+                "duration": "0000-01-01T00:14:48Z",
+                "duration_string_format": "00:14:48",
+                "notes": "  ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:23:41.945971Z",
+                "updated_at": "2019-06-06T15:30:49.147943Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4581,
+                "class_id": 814,
+                "title": "3.5 - Componentes presentacionales",
+                "is_public": false,
+                "duration": "0000-01-01T00:09:39Z",
+                "duration_string_format": "00:09:39",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-06-06T15:23:18.011012Z",
+                "updated_at": "2019-06-06T15:31:36.97919Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4582,
+                "class_id": 814,
+                "title": "3.6 - propTypes y defaultProps",
+                "is_public": false,
+                "duration": "0000-01-01T00:16:22Z",
+                "duration_string_format": "00:16:22",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-06-06T15:24:48.839327Z",
+                "updated_at": "2019-06-06T15:32:24.671345Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4583,
+                "class_id": 814,
+                "title": "3.7 - Recorriendo arrays",
+                "is_public": false,
+                "duration": "0000-01-01T00:14:34Z",
+                "duration_string_format": "00:14:34",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-06-06T15:25:59.68796Z",
+                "updated_at": "2019-06-06T15:33:06.308002Z"
+              },
+              "subject_resources": []
+            }
+          ]
+        },
+        {
+          "class": {
+            "id": 815,
+            "course_id": 180,
+            "emission_at": "2019-06-10T00:00:00Z",
+            "title": "El estado de los componentes",
+            "week_at": 4,
+            "slug": "",
+            "description": "Aprenderás a manejar y actualizar la información que contiene un componente.",
+            "created_at": "2019-04-25T14:17:56.910065Z",
+            "updated_at": "2019-05-04T01:43:19.173114Z"
+          },
+          "subject_count": 9,
+          "subjects": [{
+              "subject": {
+                "id": 4437,
+                "class_id": 815,
+                "title": "4.1 - Creando un componente de clase",
+                "is_public": false,
+                "duration": "0000-01-01T00:14:15Z",
+                "duration_string_format": "00:14:15",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:26:15.561598Z",
+                "updated_at": "2019-06-10T20:21:30.398836Z"
+              }
+            },
+            {
+              "subject": {
+                "id": 4438,
+                "class_id": 815,
+                "title": "4.2 - Formulario",
+                "is_public": false,
+                "duration": "0000-01-01T00:04:45Z",
+                "duration_string_format": "00:04:45",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:26:51.630335Z",
+                "updated_at": "2019-06-10T20:21:45.64046Z"
+              }
+            },
+            {
+              "subject": {
+                "id": 4439,
+                "class_id": 815,
+                "title": "4.3 - Estado del componente",
+                "is_public": false,
+                "duration": "0000-01-01T00:13:25Z",
+                "duration_string_format": "00:13:25",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:27:21.55932Z",
+                "updated_at": "2019-06-10T20:22:04.668298Z"
+              },
+              "subject_resources": []
+            },
+            {
+              "subject": {
+                "id": 4440,
+                "class_id": 815,
+                "title": "4.4 - Actualizando el estado",
+                "is_public": false,
+                "duration": "0000-01-01T00:10:57Z",
+                "duration_string_format": "00:10:57",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-04-25T14:27:49.667331Z",
+                "updated_at": "2019-06-10T20:22:44.763858Z"
+              }
+            },
+            {
+              "subject": {
+                "id": 4584,
+                "class_id": 815,
+                "title": "4.5 - Escribiendo métodos",
+                "is_public": false,
+                "duration": "0000-01-01T00:07:55Z",
+                "duration_string_format": "00:07:55",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-06-10T20:23:46.462908Z",
+                "updated_at": "0001-01-01T00:00:00Z"
+              }
+            },
+            {
+              "subject": {
+                "id": 4585,
+                "class_id": 815,
+                "title": "4.6 - Ciclo de vida de montaje",
+                "is_public": false,
+                "duration": "0000-01-01T00:17:37Z",
+                "duration_string_format": "00:17:37",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-06-10T20:24:53.755329Z",
+                "updated_at": "0001-01-01T00:00:00Z"
+              }
+            },
+            {
+              "subject": {
+                "id": 4586,
+                "class_id": 815,
+                "title": "4.7 - Ciclo de vida de actualización",
+                "is_public": false,
+                "duration": "0000-01-01T00:08:59Z",
+                "duration_string_format": "00:08:59",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-06-10T20:27:09.326889Z",
+                "updated_at": "0001-01-01T00:00:00Z"
+              }
+            },
+            {
+              "subject": {
+                "id": 4587,
+                "class_id": 815,
+                "title": "4.8 - Ciclo de vida de desmontaje",
+                "is_public": false,
+                "duration": "0000-01-01T00:09:40Z",
+                "duration_string_format": "00:09:40",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-06-10T20:27:44.67614Z",
+                "updated_at": "0001-01-01T00:00:00Z"
+              }
+            },
+            {
+              "subject": {
+                "id": 4588,
+                "class_id": 815,
+                "title": "4.9 - Consejos finales",
+                "is_public": false,
+                "duration": "0000-01-01T00:03:30Z",
+                "duration_string_format": "00:03:30",
+                "notes": " ",
+                "with_subscription": true,
+                "allow_notes": true,
+                "available": true,
+                "slug": "",
+                "created_at": "2019-06-10T20:28:13.701973Z",
+                "updated_at": "0001-01-01T00:00:00Z"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }],
+  "especialidad": [{
+    "id": 1,
+    "slug": "react",
+    "data": {
+      "id": 17,
+      "name": "Desarrollo frontend con React.js",
+      "subtitle": "El camino para aprender React desde cero hasta crear tu primera aplicación real",
+      "information": "En esta especialidad aprenderás lo necesario para entender desde las bases de React, pasando por las integraciones con otras librerías y extensiones hasta poder construir tu primera aplicación real tal y como fue construida la app de EDteam.",
+      "level": "AVANZADO",
+      "picture": "https://edteam-media.s3.amazonaws.com/specialities/original/3e6a0de6-602b-439c-a90b-346f13c6760f.png",
+      "slug": "react",
+      "is_visible": true,
+      "is_sale": true,
+      "is_free": false,
+      "is_comming": false,
+      "duration": "0001-01-01T00:00:00Z",
+      "comming_date": "2019-05-30T13:30:00Z",
+      "video": "",
+      "created_at": "2019-04-27T01:53:04.022607Z",
+      "updated_at": "2019-06-02T22:14:56.154266Z",
+      "course_count": 4,
+      "subject_count": 106,
+      "abilities": [{
+          "id": 76,
+          "speciality_id": 17,
+          "description": "Bases de JSX",
+          "created_at": "2019-04-27T12:42:46.127868Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": 77,
+          "speciality_id": 17,
+          "description": "Pensar en componentes",
+          "created_at": "2019-04-27T12:43:02.541203Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": 78,
+          "speciality_id": 17,
+          "description": "Integración de React con librerías de terceros",
+          "created_at": "2019-04-27T12:43:27.83507Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": 79,
+          "speciality_id": 17,
+          "description": "Soluciones a problemas comunes en React",
+          "created_at": "2019-04-27T12:43:46.688508Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": 80,
+          "speciality_id": 17,
+          "description": "Desplegar tu primera app",
+          "created_at": "2019-04-27T12:43:56.492606Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "features": [{
+          "id": 58,
+          "speciality_id": 17,
+          "name": "4 cursos",
+          "icon": "speciality__courses-count",
+          "created_at": "2019-04-27T12:06:35.892304Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": 59,
+          "speciality_id": 17,
+          "name": "Certificado",
+          "icon": "speciality__certificate",
+          "created_at": "2019-04-27T12:08:10.112418Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": 60,
+          "speciality_id": 17,
+          "name": "19 horas",
+          "icon": "speciality__hours",
+          "created_at": "2019-04-27T12:09:28.509916Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "knowledge": [{
+          "id": 30,
+          "speciality_id": 17,
+          "description": "HTML",
+          "url": "https://ed.team/cursos/html",
+          "created_at": "2019-04-27T12:45:15.570174Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": 31,
+          "speciality_id": 17,
+          "description": "JavaScript desde cero",
+          "url": "https://ed.team/cursos/javascript",
+          "created_at": "2019-04-27T12:46:34.765504Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        },
+        {
+          "id": 32,
+          "speciality_id": 17,
+          "description": "Javascript POO",
+          "url": "https://ed.team/cursos/js-poo",
+          "created_at": "2019-04-27T12:47:31.482629Z",
+          "updated_at": "0001-01-01T00:00:00Z"
+        }
+      ],
+      "professors": [{
+        "id": 1437,
+        "firstname": "Beto",
+        "lastname": "Quiroga",
+        "email": "beto@ed.team",
+        "gender": "",
+        "birthdate": "1990-02-22T00:00:00Z",
+        "country_id": 4,
+        "city": "Santa Cruz",
+        "country_name": "Bolivia",
+        "picture": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+        "profile_thumbnail": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+        "hireme": false,
+        "biography": "Hace 6 años conocí Drupal y su gran comunidad. Desde ese entonces soy un fiel convencido de que las comunidades de desarrollo son una de las mejores formas de crecer en nuestra área. He tenido la suerte de trabajar en proyectos de todo tipo (más que todo web) y he conocido todas las etapas del desarrollo de un producto, desde la negociación, planificación, desarrollo, testing y hasta comercialización. Eso me ha ayudado a poder tener una visión más amplia de cómo suceden las cosas detrás de cada proyecto. Actualmente soy el director de operaciones de EDteam y paralelamente participo en el desarrollo de diferentes proyectos.",
+        "degree_id": 0,
+        "role_id": 1,
+        "confirmed_email": true,
+        "identification_type": "DNI",
+        "identification": "12",
+        "is_staff": true,
+        "phone_number": "",
+        "address": "",
+        "is_subscription": true,
+        "created_at": "2018-02-01T03:41:39.822331Z",
+        "updated_at": "2019-06-14T10:24:06.64808Z"
+      }],
+      "courses": [{
+          "id": 180,
+          "name": "React.js Desde Cero",
+          "subtitle": "Programa tus aplicaciones web con la librería frontend que usa Facebook e Instagram.",
+          "picture": "https://edteam-media.s3.amazonaws.com/courses/original/f7dad9a6-e060-4305-9adf-b9a9079075de.jpg",
+          "information": "React.js es la librería frontend con la que están construidas las dos redes sociales más grandes: Facebook e Instagram. En este curso aprenderás a crear tus propios componentes React con la sintaxis JSX y usarlos para crear interfaces de usuario.",
+          "you_learn": "<li>Configuración del entorno de desarrollo</li>\n<li>Sintaxis JSX</li>\n<li>El poder de los componentes</li>",
+          "requirements": "<li><a href=\"https://ed.team/cursos/html\" target=\"_blank\">HTML</a></li>\n<li><a href=\"https://ed.team/cursos/javascript\" target=\"_blank\">Javascript desde cero</a></li>\n<li><a href=\"https://ed.team/cursos/js-poo\" target=\"_blank\">Javascript Orientado a Objetos</a></li>",
+          "level": "BEGIN",
+          "is_live": false,
+          "course_type": "COURSE",
+          "visible": true,
+          "comming": false,
+          "comming_date": "2019-05-30T15:00:00Z",
+          "on_sale": true,
+          "free": false,
+          "for_premium": false,
+          "slug": "react",
+          "is_inscription": false,
+          "is_private": false,
+          "duration": "0000-01-01T05:13:54Z",
+          "course_hours": "4",
+          "video": "",
+          "live_end_date": "2019-06-10T00:00:00Z",
+          "created_at": "2019-04-25T12:50:42.332304Z",
+          "updated_at": "2019-07-25T00:01:01.443713Z",
+          "professor": [{
+            "id": 1437,
+            "firstname": "Beto",
+            "lastname": "Quiroga",
+            "email": "beto@ed.team",
+            "gender": "",
+            "birthdate": "1990-02-22T00:00:00Z",
+            "country_id": 4,
+            "city": "Santa Cruz",
+            "country_name": "Bolivia",
+            "picture": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+            "profile_thumbnail": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+            "hireme": false,
+            "biography": "Hace 6 años conocí Drupal y su gran comunidad. Desde ese entonces soy un fiel convencido de que las comunidades de desarrollo son una de las mejores formas de crecer en nuestra área. He tenido la suerte de trabajar en proyectos de todo tipo (más que todo web) y he conocido todas las etapas del desarrollo de un producto, desde la negociación, planificación, desarrollo, testing y hasta comercialización. Eso me ha ayudado a poder tener una visión más amplia de cómo suceden las cosas detrás de cada proyecto. Actualmente soy el director de operaciones de EDteam y paralelamente participo en el desarrollo de diferentes proyectos.",
+            "degree_id": 0,
+            "role_id": 1,
+            "confirmed_email": true,
+            "identification_type": "DNI",
+            "identification": "12",
+            "is_staff": true,
+            "phone_number": "",
+            "address": "",
+            "is_subscription": true,
+            "created_at": "2018-02-01T03:41:39.822331Z",
+            "updated_at": "2019-06-14T10:24:06.64808Z"
+          }]
+        },
+        {
+          "id": 181,
+          "name": "React - Rutas, APIs & Hooks",
+          "subtitle": "Aprende a integrar React.js con librerías de terceros para ampliar sus características.",
+          "picture": "https://edteam-media.s3.amazonaws.com/courses/original/8b7ef439-b9bc-485f-9608-d82d0d1a7a2b.png",
+          "information": "Este curso te enseñará a integrar React Router para construir las rutas de la aplicación. Utilizar librerías para peticiones a APIs REST y ampliar las características de los componentes con hooks y componentes de orden superior.",
+          "you_learn": "<li>Crear rutas con React Router</li>\n<li>Peticiones HTTP con Axios y Fetch</li>\n<li>Componentes de orden superior</li>\n<li>Hooks en React</li>",
+          "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"blank\">React desde cero</a></li>",
+          "level": "INTERMEDIATE",
+          "is_live": false,
+          "course_type": "COURSE",
+          "visible": true,
+          "comming": false,
+          "comming_date": "2019-06-13T15:00:00Z",
+          "on_sale": true,
+          "free": false,
+          "for_premium": false,
+          "slug": "react-route",
+          "is_inscription": false,
+          "is_private": false,
+          "duration": "0000-01-01T05:27:07Z",
+          "course_hours": "4",
+          "video": "",
+          "live_end_date": "2019-06-24T00:00:00Z",
+          "created_at": "2019-04-25T15:03:02.015708Z",
+          "updated_at": "2019-07-25T00:01:01.44099Z",
+          "professor": [{
+            "id": 1437,
+            "firstname": "Beto",
+            "lastname": "Quiroga",
+            "email": "beto@ed.team",
+            "gender": "",
+            "birthdate": "1990-02-22T00:00:00Z",
+            "country_id": 4,
+            "city": "Santa Cruz",
+            "country_name": "Bolivia",
+            "picture": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+            "profile_thumbnail": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+            "hireme": false,
+            "biography": "Hace 6 años conocí Drupal y su gran comunidad. Desde ese entonces soy un fiel convencido de que las comunidades de desarrollo son una de las mejores formas de crecer en nuestra área. He tenido la suerte de trabajar en proyectos de todo tipo (más que todo web) y he conocido todas las etapas del desarrollo de un producto, desde la negociación, planificación, desarrollo, testing y hasta comercialización. Eso me ha ayudado a poder tener una visión más amplia de cómo suceden las cosas detrás de cada proyecto. Actualmente soy el director de operaciones de EDteam y paralelamente participo en el desarrollo de diferentes proyectos.",
+            "degree_id": 0,
+            "role_id": 1,
+            "confirmed_email": true,
+            "identification_type": "DNI",
+            "identification": "12",
+            "is_staff": true,
+            "phone_number": "",
+            "address": "",
+            "is_subscription": true,
+            "created_at": "2018-02-01T03:41:39.822331Z",
+            "updated_at": "2019-06-14T10:24:06.64808Z"
+          }]
+        },
+        {
+          "id": 182,
+          "name": "React - Manejo del estado de la aplicación",
+          "subtitle": "Aprende a manejar un estado global para toda tu aplicación para controlar el estado de los componentes",
+          "picture": "https://edteam-media.s3.amazonaws.com/courses/original/8b7ef439-b9bc-485f-9608-d82d0d1a7a2b.png",
+          "information": "Los componentes tienen su propio estado que no es compartido con otros. El estado global resuelve este inconveniente permitiendo que todos los componentes estén suscritos a él y se actualicen cuando sea modificado.",
+          "you_learn": "<li>Conceptos del estado global</li>\n<li>Integración de Redux a tu app</li>\n<li>Uso de Context API</li>\n<li>Diferencias y ventajas entre las varias soluciones</li>",
+          "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"_blank\">React desde cero</a></li>",
+          "level": "INTERMEDIATE",
+          "is_live": false,
+          "course_type": "COURSE",
+          "visible": true,
+          "comming": false,
+          "comming_date": "2019-06-27T15:00:00Z",
+          "on_sale": true,
+          "free": false,
+          "for_premium": false,
+          "slug": "react-state",
+          "is_inscription": false,
+          "is_private": false,
+          "duration": "0000-01-01T06:05:05Z",
+          "course_hours": "6",
+          "video": "",
+          "live_end_date": "2019-07-15T00:00:00Z",
+          "created_at": "2019-04-27T00:57:09.668125Z",
+          "updated_at": "2019-07-25T00:01:01.438225Z",
+          "professor": [{
+            "id": 1437,
+            "firstname": "Beto",
+            "lastname": "Quiroga",
+            "email": "beto@ed.team",
+            "gender": "",
+            "birthdate": "1990-02-22T00:00:00Z",
+            "country_id": 4,
+            "city": "Santa Cruz",
+            "country_name": "Bolivia",
+            "picture": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+            "profile_thumbnail": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+            "hireme": false,
+            "biography": "Hace 6 años conocí Drupal y su gran comunidad. Desde ese entonces soy un fiel convencido de que las comunidades de desarrollo son una de las mejores formas de crecer en nuestra área. He tenido la suerte de trabajar en proyectos de todo tipo (más que todo web) y he conocido todas las etapas del desarrollo de un producto, desde la negociación, planificación, desarrollo, testing y hasta comercialización. Eso me ha ayudado a poder tener una visión más amplia de cómo suceden las cosas detrás de cada proyecto. Actualmente soy el director de operaciones de EDteam y paralelamente participo en el desarrollo de diferentes proyectos.",
+            "degree_id": 0,
+            "role_id": 1,
+            "confirmed_email": true,
+            "identification_type": "DNI",
+            "identification": "12",
+            "is_staff": true,
+            "phone_number": "",
+            "address": "",
+            "is_subscription": true,
+            "created_at": "2018-02-01T03:41:39.822331Z",
+            "updated_at": "2019-06-14T10:24:06.64808Z"
+          }]
+        },
+        {
+          "id": 183,
+          "name": "Plataforma de educación online con React.js",
+          "subtitle": "Aprende a crear tu propia aplicación de cursos con React.js y basada en la experiencia de EDteam.",
+          "picture": "https://edteam-media.s3.amazonaws.com/courses/original/4ff27f76-96a9-44ab-bb7f-ed0e17263e7c.png",
+          "information": "En este Workshop aplicarás los conceptos de React.js para desarrollar desde cero tu propia aplicación de educación online como la de EDteam. Iremos desde la planificación hasta el despliegue de la aplicación en producción.",
+          "you_learn": "<li>Planificar y estructurar un proyecto</li>\n<li>Escribir componentes según atomic design</li>\n<li>Utilizar el estado global</li>\n<li>Desplegar tu app en un servidor</li>",
+          "requirements": "<li><a href=\"https://ed.team/cursos/react\" target=\"_blank\">React desde cero</a></li>\n<li><a href=\"https://ed.team/cursos/react-route\"  target=\"_blank\">React: Rutas, APIs & Hooks</a></li>\n<li><a href=\"https://ed.team/cursos/react-state\" target=\"_blank\">React: Manejo del estado</a></li>",
+          "level": "HIGH",
+          "is_live": false,
+          "course_type": "WORKSHOP",
+          "visible": true,
+          "comming": true,
+          "comming_date": "2019-07-25T15:00:00Z",
+          "on_sale": true,
+          "free": false,
+          "for_premium": false,
+          "slug": "workshop-react",
+          "is_inscription": false,
+          "is_private": false,
+          "duration": "0001-01-01T00:00:00Z",
+          "course_hours": "5",
+          "video": "",
+          "live_end_date": "2019-08-08T00:00:00Z",
+          "created_at": "2019-04-27T01:15:20.733093Z",
+          "updated_at": "2019-07-25T00:01:01.435491Z",
+          "professor": [{
+            "id": 1437,
+            "firstname": "Beto",
+            "lastname": "Quiroga",
+            "email": "beto@ed.team",
+            "gender": "",
+            "birthdate": "1990-02-22T00:00:00Z",
+            "country_id": 4,
+            "city": "Santa Cruz",
+            "country_name": "Bolivia",
+            "picture": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+            "profile_thumbnail": "avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+            "hireme": false,
+            "biography": "Hace 6 años conocí Drupal y su gran comunidad. Desde ese entonces soy un fiel convencido de que las comunidades de desarrollo son una de las mejores formas de crecer en nuestra área. He tenido la suerte de trabajar en proyectos de todo tipo (más que todo web) y he conocido todas las etapas del desarrollo de un producto, desde la negociación, planificación, desarrollo, testing y hasta comercialización. Eso me ha ayudado a poder tener una visión más amplia de cómo suceden las cosas detrás de cada proyecto. Actualmente soy el director de operaciones de EDteam y paralelamente participo en el desarrollo de diferentes proyectos.",
+            "degree_id": 0,
+            "role_id": 1,
+            "confirmed_email": true,
+            "identification_type": "DNI",
+            "identification": "12",
+            "is_staff": true,
+            "phone_number": "",
+            "address": "",
+            "is_subscription": true,
+            "created_at": "2018-02-01T03:41:39.822331Z",
+            "updated_at": "2019-06-14T10:24:06.64808Z"
+          }]
+        }
+      ]
+    }
+  }]
+}
