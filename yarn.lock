@@ -1661,6 +1661,22 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
+"@u-wave/react-vimeo@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@u-wave/react-vimeo/-/react-vimeo-0.8.3.tgz#c313e0f3286d3865b2f8a7e7840077bc1faef2ef"
+  integrity sha512-TmsKocxbfYNF6/quTOSJL7mf8PotcDWY7gHXiqJLWipeym2BK3zOISHV2wnzHem5dR5EDc0shh2jhIWIdJPt/w==
+  dependencies:
+    "@vimeo/player" "^2.10.0"
+    prop-types "^15.7.2"
+
+"@vimeo/player@^2.10.0":
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/@vimeo/player/-/player-2.12.0.tgz#5d7c8447938326ec8e0d1b65c7ca0b1160eb8d64"
+  integrity sha512-SrlwZxeZvoFBEdbxrEg7eheevaMey7bYbip+IoTvRVsmW7JC98ulL1qDAcwAOHMWfTvFtAG6oLl6/spccJiI6w==
+  dependencies:
+    native-promise-only "0.8.1"
+    weakmap-polyfill "2.0.1"
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -7163,6 +7179,11 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+native-promise-only@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/native-promise-only/-/native-promise-only-0.8.1.tgz#20a318c30cb45f71fe7adfbf7b21c99c1472ef11"
+  integrity sha1-IKMYwwy0X3H+et+/eyHJnBRy7xE=
+
 natives@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/natives/-/natives-1.1.6.tgz#a603b4a498ab77173612b9ea1acdec4d980f00bb"
@@ -10932,6 +10953,11 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
+
+weakmap-polyfill@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/weakmap-polyfill/-/weakmap-polyfill-2.0.1.tgz#ff0278c7f75bb0c492fc3343257f3e87114d709a"
+  integrity sha512-Jy177Lvb1LCrPQDWJsXyyqf4eOhcdvQHFGoCqSv921kVF5i42MVbr4e2WEwetuTLBn1NX0IhPzTmMu0N3cURqQ==
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
