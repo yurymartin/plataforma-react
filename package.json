@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@u-wave/react-vimeo": "^0.8.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "ed-grid": "^2.9.0",
     "edteam-style-guides": "^0.0.67",
     "node-sass": "^4.14.1",
